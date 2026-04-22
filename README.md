@@ -34,7 +34,7 @@ To fix this, we utilize the ESP32's dedic_gpio (Dedicated GPIO) which reads pins
 -- We bypass the hardware interrupt entirely and use a 10,000-loop software debounce on the raw silicon register to guarantee a clean frame lock.
 
 
-🚀 Quick Start Guide
+Quick Start Guide:
 1. Flash the Microcontroller
 --Open the .ino project in the Arduino IDE.
 --Ensure you have the ESP32 board definitions installed.
